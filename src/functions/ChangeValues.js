@@ -24,12 +24,6 @@ function ChangeValues(index, arr1, arr2) {
     arr1 = arr1.filter((value) => !maxValues.includes(value));
     arr2 = arr2.filter((value) => !minValues.includes(value));
   }
-
-  //   console.log("max : " + arr1);
-  //   console.log("min : " + arr2);
-  //   console.log(indexValueBig);
-  //   console.log(indexValueSmall);
-
   return { arr1, arr2, indexValueBig, indexValueSmall };
 }
 
